@@ -29,6 +29,6 @@ I am going to push most of the code in next days.
     * Medium
 * Math(数学知识)
     * Easy
-        *LCP22 黑白方格画(排列组合)
-        *LCP17 速算机器人
+        * LCP22 黑白方格画(排列组合)
+        * LCP17 速算机器人
             
