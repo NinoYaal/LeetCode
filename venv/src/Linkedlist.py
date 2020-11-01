@@ -8,20 +8,14 @@
 # -------------------------------------------------------------------------------
 class Node:
     def __init__(self, value = None, next = None):
-        self._value = value
-        self._next = next
+        self.val = value
+        self.next = next
 
     def getValue(self):
-        return self._value
+        return self.val
 
     def getNext(self):
-        return self._next
-
-    def setValue(self, value):
-        self._value = value
-
-    def setNext(self, next):
-        self._next = next
+        return self.next
 
 class Linkedlist:
     def __init__(self):
