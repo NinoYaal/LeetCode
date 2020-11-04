@@ -12,4 +12,12 @@ class TreeNode(object):
          self.val = val
          self.left = left
          self.right = right
-    
+
+
+class NtreeNode(object):
+    def __init__(self, val=0, children = []):
+        self.val = val
+        self.children = children
+
+def createTree():
+    return TreeNode(3,TreeNode(3,TreeNode(3)),TreeNode(4,TreeNode(3,TreeNode(3,TreeNode(3)))))

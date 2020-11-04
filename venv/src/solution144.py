@@ -30,7 +30,7 @@ class Solution:
         ans = list()
         stack = list()
         if root == None:
-            return []
+            return
         stack.append(root)
 
         while len(stack) != 0:

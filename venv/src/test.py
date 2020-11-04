@@ -4,19 +4,20 @@
 # Name:         Test
 # Author:       Nino
 # Date:         2020/10/29
-# Note:
+# Note:         仅做测试用
 # -------------------------------------------------------------------------------
 class Solution:
-    def test(self):
-        return
-def my_abs(x):
-    if not isinstance(x, (int, float)):
-        raise TypeError('bad operand type')
-    if x >= 0:
-        return x
-    else:
-        return -x
+    def test(self,s):
+        if s == '':
+            return s
+        while s != '' and s[0] == ' ' :
+            s = s[1:]
+        while s != '' and s[-1] == ' ' :
+            s = s[:-1]
+        return s
+
+
 if __name__ == "__main__":
     objectName = Solution()
-    a = (1, [2, 3])
-    print(my_abs(12))
+    s = '    '
+    print(objectName.test(s))
